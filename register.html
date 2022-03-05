@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./logo.jpg">
+            <h4 class="logo">BLOG</h4>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="home.html" class="nav-link">HOME</a></li>
+                <li><a href="post.html" class="nav-link">Theme Parks</a></li>
+                <li><a href="register.html" class="nav-link">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="video1">
+        <video src="./snow.mp4" autoplay mute loop></video>
+        <div class="regform"><h1>registration Form</h1></div>
+        <div class="main">
+            <form>
+                <div id="name">
+                    <h2 class="name">Name</h2>
+                    <input type="text" class="firstname" name="first_name"><br>
+                    <label class="firstlabel">First Name</label>
+                    <input type="text" class="lastname" name="last_name">
+                    <label class="lastlabel">Last Name</label>
+                </div>
+                <h2 class="name">School</h2>
+                <input type="text" class="college" name="college">
+
+
+                <h2 class="name">Phone</h2>
+                <input type="text" class="code" name="area_code">
+                <label class="area-code">Area Code</label>
+                <input type="text" class="number" name="phone">
+                <label class="phone-number">Phone Number</label>
+
+                <h2 class="name">Theme Park Options</h2>
+                <select name="subject"  class="option">
+                    <option disabled="disabled" selected="selected">----Chose Option</option>
+                    <option>Adlabs Imagica</option>
+                    <option>Essel World</option>
+                    <option>Snow World</option>
+                    <option>Water Kingdom</option>
+                    <option>KidZania</option>
+                    <option>Suraj Water Park</option>
+                </select>
+
+                <h2 id="student">Are you instered</h2>
+                <label class="radio">
+                    <input type="radio" class="radio-one" name="radio">
+                    <span class="checkmark"></span>
+                    yes
+                </label>
+                <label class="radio">
+                    <input type="radio" name="radio" class="radio-two">
+                    <span class="checkmark"></span>
+                    No
+                </label><br>
+                <button type="submit">Register</button>
+                <h1 class="end">It's better to burn out than to fade away</h1>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
